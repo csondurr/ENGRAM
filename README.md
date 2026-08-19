@@ -39,7 +39,7 @@ The apparent value above 100% in the cell-loss experiment is a normalized numeri
 
 ## Evidence map
 
-The numbered PNG files form the visual validation sequence:
+The numbered PNG files under `results/figures/` form the visual validation sequence:
 
 1. aperture geometry and reference phase;
 2. multipath scene and channel magnitude;
@@ -51,16 +51,16 @@ The numbered PNG files form the visual validation sequence:
 8. full-wave element geometry, S-parameters, and pattern;
 9. off-grid localization statistics.
 
-The complete formatted archive is available as [ENGRAM.pdf](ENGRAM.pdf) and [ENGRAM.html](ENGRAM.html).
+The complete formatted archive is available as [ENGRAM.pdf](docs/ENGRAM.pdf) and [ENGRAM.html](docs/ENGRAM.html).
 
 ## Repository structure
 
 ```text
 .
 ├── README.md
-├── ENGRAM.pdf
-├── ENGRAM.html
-├── 01_...png through 20_...png
+├── docs/ENGRAM.pdf
+├── docs/ENGRAM.html
+├── results/figures/01_...png through 20_...png
 ├── docs/
 │   └── VALIDATION.md
 ├── CITATION.cff
